@@ -7,7 +7,7 @@ export const Secciones = () => {
           <a className="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link " href="#"></a>
+          <a className="nav-link " href="#">Blog</a>
         </li>
         <li className="nav-item">
           <a className="nav-link " href="#">Link</a>

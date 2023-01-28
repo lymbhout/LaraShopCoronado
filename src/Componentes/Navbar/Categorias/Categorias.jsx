@@ -7,11 +7,11 @@ export const Categorias = () => {
           Productos
         </a>
         <ul className="dropdown-menu">
-          <li><a className="dropdown-item  active " href="#">ROPA</a></li>
+          <li><a className="dropdown-item  active opacity-80 " href="#">ROPA</a></li>
           <li><a className="dropdown-item" href="#">Pantalones</a></li>
           <li><a className="dropdown-item" href="#">Camisas</a></li>
           <li><hr className="dropdown-divider" /></li>
-          <li><a className="dropdown-item active" href="#">ACCESORIOS</a></li>
+          <li><a className="dropdown-item active opacity-80" href="#">ACCESORIOS</a></li>
           <li><a className="dropdown-item" href="#">Zarcillos</a></li>
           <li><a className="dropdown-item" href="#">Anillos</a></li>
         </ul>
