@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
 <nav className="navbar navbar-expand-lg bg-light">
   <div className="container-fluid">
-    <a className="Unstyled mb-0 h1" href="#">LARA Shop</a>
+    <a className="  display-6 text-decoration-none" href="#">LARA Shop</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon" />
     </button>
