@@ -6,7 +6,7 @@ export const Categorias = () => {
         <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
           Productos
         </a>
-        <ul className="dropdown-menu">
+        <ul className="dropdown-menu rounded-0 shadow-lg border-0 ">
           <li><a className="dropdown-item  active opacity-80 " href="#">ROPA</a></li>
           <li><a className="dropdown-item" href="#">Pantalones</a></li>
           <li><a className="dropdown-item" href="#">Camisas</a></li>
