@@ -1,10 +1,18 @@
 import React from 'react';
+import { useEffect,useState } from 'react';
+import { consultarBDD } from '../../utils/funciones.js';
+const ItemListContainer = () => {
+    
+    const [productos,setproductos] = useState([])
 
-const ItemListContainer = ({greeting}) => {
+    useEffect(()=>{
+        consultarBDD('./json/productos.json').then(props => console.log(props))
+    })
     return (
-        <div>
-            <p>{greeting}</p>
-        </div>
+        <>
+
+
+        </>
     );
 }
 
