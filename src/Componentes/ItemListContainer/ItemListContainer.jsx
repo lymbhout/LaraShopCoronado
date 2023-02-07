@@ -1,19 +1,22 @@
 import React from 'react';
 import { useEffect,useState } from 'react';
 import { consultarBDD } from '../../utils/funciones.js';
-const ItemListContainer = () => {
+import {ItemList} from '../ItemList/ItemList.jsx';
+export const ItemListContainer = () => {
     
     const [productos,setproductos] = useState([])
 
     useEffect(()=>{
-        consultarBDD('./json/productos.json').then(props => console.log(props))
-    })
+        consultarBDD('./json/productos.json').then(produc =>{
+            const item = ItemList({produc})
+            setproductos(item)
+        })
+    },[])
     return (
         <>
-
-
+        {productos}
         </>
     );
 }
 
-export default ItemListContainer;
+

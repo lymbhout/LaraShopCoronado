@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Item = ({item}) => {
+export const Item = ({item}) => {
     return (
       <div className="card" style={{width: '18rem'}}>
         <img src={`./img/${item.img}`}className="card-img-top" alt={`imagen de ${item.nombre}`} />
@@ -14,4 +14,4 @@ const Item = ({item}) => {
     );
 }
 
-export default Item;
+
