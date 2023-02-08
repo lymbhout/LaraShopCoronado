@@ -8,7 +8,7 @@ export const Item = ({item}) => {
           <h5 className="card-title">{item.nombre} {item.modelo}</h5>
           <p className="card-text">{item.marca}</p>
           <p className="card-text">{item.precio}</p>
-          <button className='btn btn-dark' >ver producto</button>
+          <button className='btn shadow-lg rounded-0 ' >ver producto</button>
         </div>
       </div>
     );
