@@ -2,46 +2,61 @@
     {
         "id": 1,
         "ideCategoria": 1,
-        "nombre":"",
-        "modelo":"",
-        "precio":5,
+        "nombre":"vestido azucena",
+        "modelo":"estandar",
+        "categoria":"vestido",
+        "precio":19.999,
         "stock":5,
         "img":""
     },
     {
         "id": 2,
         "ideCategoria": 2,
-        "nombre":"",
-        "modelo":"",
-        "precio":5,
+        "nombre":"vestido azucena",
+        "modelo":"curly",
+        "categoria":"vestido",
+        "precio":29.99,
         "stock":5,
         "img":""
     },
     {
         "id": 3,
         "ideCategoria": 3,
-        "nombre":"",
-        "modelo":"",
-        "precio":5,
+        "nombre":"vestido sofia",
+        "modelo":"estandar",
+        "categoria":"vestido",
+        "precio":18.99,
         "stock":5,
         "img":""
     },
     {
         "id": 4,
         "ideCategoria": 4,
-        "nombre":"",
-        "modelo":"",
-        "precio":5,
+        "nombre":"vestido sofia",
+        "modelo":"curly",
+        "categoria":"vestido",
+        "precio":27.00,
         "stock":5,
         "img":""
     },
     {
         "id": 5,
         "ideCategoria": 5,
-        "nombre":"",
-        "modelo":"",
-        "precio":5,
+        "nombre":"vestido fénix",
+        "modelo":"estandar",
+        "categoria":"vestido",
+        "precio":15.99,
         "stock":5,
         "img":""
+    },
+    {
+        "id": 6,
+        "ideCategoria": 6,
+        "nombre":"falda sirena ",
+        "modelo":"estandar",
+        "categoria":"falda",
+        "precio":10.99,
+        "stock":5,
+        "img":"../img/falda sirena/IMG_2332.JPEG"
     }
 ]

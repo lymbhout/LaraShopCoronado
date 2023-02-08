@@ -7,7 +7,7 @@ export const ItemDetailContainer = () => {
     const [producto,setProducto] = useState([])
 
     useEffect(()=>{
-        consultarBDD('/json/productos.json').them(prods => {
+        consultarBDD('../json/productos.json').then(prods => {
             const prod = prods.find(item => item.id === 1)
             setProducto(prod)
         })
