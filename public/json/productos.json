@@ -7,7 +7,7 @@
         "categoria":"vestido",
         "precio":19.99,
         "stock":5,
-        "img":"../img/vestido azucena/VAE1zoom.JPEG"
+        "img":"../img/vestido azucena/VAE1.jpg"
     },
     {
         "id": 2,
@@ -17,7 +17,7 @@
         "categoria":"vestido",
         "precio":29.99,
         "stock":5,
-        "img":"../img/vestido azucena/VAC1zoom.JPEG"
+        "img":"../img/vestido azucena/VAC1.jpg"
     },
     {
         "id": 3,
@@ -27,7 +27,7 @@
         "categoria":"vestido",
         "precio":18.99,
         "stock":5,
-        "img":"../img/vestido sofia/VSE1zoom.JPEG"
+        "img":"../img/vestido sofia/IMG_2316.JPEG"
     },
     {
         "id": 4,
@@ -37,7 +37,7 @@
         "categoria":"vestido",
         "precio":27.99,
         "stock":5,
-        "img":"../img/vestido sofia/VSC1zoom.JPEG"
+        "img":"../img/vestido sofia/IMG_2309.JPEG"
     },
     {
         "id": 5,
@@ -47,7 +47,7 @@
         "categoria":"vestido",
         "precio":15.99,
         "stock":5,
-        "img":"../img/vestido fenix/VFE1zoom.JPEG"
+        "img":"../img/vestido fenix/mi proyecto.jpg"
     },
     {
         "id": 6,

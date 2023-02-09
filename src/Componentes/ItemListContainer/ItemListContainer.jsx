@@ -13,9 +13,9 @@ export const ItemListContainer = () => {
         })
     },[])
     return (
-        <>
-        {productos}
-        </>
+        <div className='row '>
+            {productos}
+        </div>
     );
 }
 
