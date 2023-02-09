@@ -5,19 +5,19 @@
         "nombre":"vestido azucena",
         "modelo":"estandar",
         "categoria":"vestido",
-        "precio":19.999,
+        "precio":19.99,
         "stock":5,
-        "img":""
+        "img":"../img/vestido azucena/VAE1zoom.JPEG"
     },
     {
         "id": 2,
         "ideCategoria": 2,
         "nombre":"vestido azucena",
-        "modelo":"curly",
+        "modelo":"curvi",
         "categoria":"vestido",
         "precio":29.99,
         "stock":5,
-        "img":""
+        "img":"../img/vestido azucena/VAC1zoom.JPEG"
     },
     {
         "id": 3,
@@ -27,17 +27,17 @@
         "categoria":"vestido",
         "precio":18.99,
         "stock":5,
-        "img":""
+        "img":"../img/vestido sofia/VSE1zoom.JPEG"
     },
     {
         "id": 4,
         "ideCategoria": 4,
         "nombre":"vestido sofia",
-        "modelo":"curly",
+        "modelo":"curvi",
         "categoria":"vestido",
-        "precio":27.00,
+        "precio":27.99,
         "stock":5,
-        "img":""
+        "img":"../img/vestido sofia/VSC1zoom.JPEG"
     },
     {
         "id": 5,
@@ -47,7 +47,7 @@
         "categoria":"vestido",
         "precio":15.99,
         "stock":5,
-        "img":""
+        "img":"../img/vestido fenix/VFE1zoom.JPEG"
     },
     {
         "id": 6,
@@ -57,6 +57,6 @@
         "categoria":"falda",
         "precio":10.99,
         "stock":5,
-        "img":"../img/falda sirena/IMG_2332.JPEG"
+        "img":"../img/falda sirena/FSM1zoom.JPEG"
     }
 ]
