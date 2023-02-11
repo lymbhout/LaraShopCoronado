@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "ideCategoria": 1,
+        "idCategoria": 1,
         "nombre":"vestido azucena",
         "modelo":"estandar",
         "categoria":"vestido",
@@ -11,7 +11,7 @@
     },
     {
         "id": 2,
-        "ideCategoria": 2,
+        "idCategoria": 2,
         "nombre":"vestido azucena",
         "modelo":"curvi",
         "categoria":"vestido",
@@ -21,7 +21,7 @@
     },
     {
         "id": 3,
-        "ideCategoria": 3,
+        "idCategoria": 1,
         "nombre":"vestido sofia",
         "modelo":"estandar",
         "categoria":"vestido",
@@ -31,7 +31,7 @@
     },
     {
         "id": 4,
-        "ideCategoria": 4,
+        "idCategoria": 2,
         "nombre":"vestido sofia",
         "modelo":"curvi",
         "categoria":"vestido",
@@ -41,7 +41,7 @@
     },
     {
         "id": 5,
-        "ideCategoria": 5,
+        "idCategoria": 1,
         "nombre":"vestido fénix",
         "modelo":"estandar",
         "categoria":"vestido",
@@ -51,7 +51,7 @@
     },
     {
         "id": 6,
-        "ideCategoria": 6,
+        "idCategoria": 3,
         "nombre":"falda sirena ",
         "modelo":"estandar",
         "categoria":"falda",
