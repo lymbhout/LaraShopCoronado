@@ -14,7 +14,6 @@ export const ItemDetail = ({prods}) => {
         <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
         <ItemCount valorInicial={1} stock={prods.stock}/> 
         <button className='btn btn-dark'>finalizar compra</button>
-
       </div>
     </div>
   </div>
