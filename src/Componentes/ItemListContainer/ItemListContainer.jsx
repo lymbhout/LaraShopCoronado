@@ -20,7 +20,7 @@ export const ItemListContainer = () => {
                 setproductos(item)
             })
         }
-    },[])
+    },[idCategoria])
     return (
         <div className='row '>
             {productos}
