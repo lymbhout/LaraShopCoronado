@@ -1,8 +1,8 @@
 [
     {
-        "id": 1,
+        "id": "VestidoAzucena",
         "idCategoria": 1,
-        "nombre":"vestido azucena",
+        "nombre":"Vestido Azucena",
         "modelo":"estandar",
         "categoria":"vestido",
         "precio":19.99,
@@ -10,9 +10,9 @@
         "img":"../img/vestido azucena/VAE1.jpg"
     },
     {
-        "id": 2,
+        "id":"VestidoAzucenaCurvi",
         "idCategoria": 2,
-        "nombre":"vestido azucena",
+        "nombre":"Vestido Azucena Curvi",
         "modelo":"curvi",
         "categoria":"vestido",
         "precio":29.99,
@@ -20,9 +20,9 @@
         "img":"../img/vestido azucena/VAC1.jpg"
     },
     {
-        "id": 3,
+        "id": "VestidoSofia",
         "idCategoria": 1,
-        "nombre":"vestido sofia",
+        "nombre":"Vestido Sofia",
         "modelo":"estandar",
         "categoria":"vestido",
         "precio":18.99,
@@ -30,9 +30,9 @@
         "img":"../img/vestido sofia/IMG_2316.JPEG"
     },
     {
-        "id": 4,
+        "id": "VestidoSofiaCurvi",
         "idCategoria": 2,
-        "nombre":"vestido sofia",
+        "nombre":"Vestido Sofia",
         "modelo":"curvi",
         "categoria":"vestido",
         "precio":27.99,
@@ -40,9 +40,9 @@
         "img":"../img/vestido sofia/IMG_2309.JPEG"
     },
     {
-        "id": 5,
+        "id": "VestidoFénix",
         "idCategoria": 1,
-        "nombre":"vestido fénix",
+        "nombre":"Vestido Fénix",
         "modelo":"estandar",
         "categoria":"vestido",
         "precio":15.99,
@@ -50,9 +50,9 @@
         "img":"../img/vestido fenix/mi proyecto.jpg"
     },
     {
-        "id": 6,
+        "id": "FaldaSirena",
         "idCategoria": 3,
-        "nombre":"falda sirena ",
+        "nombre":"Falda Sirena",
         "modelo":"estandar",
         "categoria":"falda",
         "precio":10.99,

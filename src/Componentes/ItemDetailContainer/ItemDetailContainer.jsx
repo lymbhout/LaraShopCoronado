@@ -9,14 +9,14 @@ export const ItemDetailContainer = () => {
 
     useEffect(()=>{
         consultarBDD('../json/productos.json').then(prods => {
-            const prod = prods.find(item => item.id === parseInt(id))
+            const prod = prods.find(item => item.id === id)
             setProducto(prod)
         })
     },[])
     return (
-        <div className='card mb-3 container'>
+        <>
             <ItemDetail prods={producto} />
-        </div>
+        </>
     );
 }
 
