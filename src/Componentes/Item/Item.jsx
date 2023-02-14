@@ -1,17 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../../CSS/Item.css'
 export const Item = ({item}) => {
     return (
-      <div className="card" style={{width: '18rem'}}>
-        <img src={`/img/${item.img}`}className="card-img-top" alt={`imagen de ${item.nombre}`} />
+      <div className="card m-5  hover-zoom border-0 rounded-0" style={{width: '18rem'}}>
+        <Link className='' to={`/item/${item.id}`}>
+          <img src={`/img/${item.img}`}className="card-img-top hover-zoom2" alt={`imagen de ${item.nombre}`} />
         <div className="card-body">
           <h5 className="card-title">{item.nombre} {item.modelo}</h5>
           <p className="card-text">{item.marca}</p>
           <p className="card-text">{item.precio}$</p>
-          <Link className='btn btn-dark' to={`/item/${item.id}`}>Ver Producto</Link>
-        </div>
+        </div></Link>
       </div>
     );
-}
-
-
+  }

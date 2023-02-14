@@ -41,8 +41,8 @@
     },
     {
         "id": "VestidoFénix",
-        "idCategoria": 1,
-        "nombre":"VestidosEstandar",
+        "idCategoria": "VestidosEstandar",
+        "nombre":"Vestidos Fenix",
         "modelo":"estandar",
         "categoria":"vestido",
         "precio":15.99,
@@ -50,7 +50,7 @@
         "img":"../img/vestido fenixR/VF1.jpeg"
     },
     {
-        "id": "FaldaSirena",
+        "id": "FaldaSirenaM1",
         "idCategoria": "faldas",
         "nombre":"Falda Sirena",
         "modelo":"estandar",
@@ -58,5 +58,25 @@
         "precio":10.99,
         "stock":5,
         "img":"../img/falda sirenaR/FS1.jpg"
+    },
+    {
+        "id": "FaldaSirenaM2",
+        "idCategoria": "faldas",
+        "nombre":"Falda Sirena",
+        "modelo":"estandar",
+        "categoria":"falda",
+        "precio":10.99,
+        "stock":5,
+        "img":"../img/falda sirenaR/FS2.jpg"
+    },
+    {
+        "id": "FaldaSirenaM3",
+        "idCategoria": "faldas",
+        "nombre":"Falda Sirena",
+        "modelo":"estandar",
+        "categoria":"falda",
+        "precio":10.99,
+        "stock":5,
+        "img":"../img/falda sirenaR/FS3.jpg"
     }
 ]
