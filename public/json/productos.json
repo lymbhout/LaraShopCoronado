@@ -1,62 +1,62 @@
 [
     {
         "id": "VestidoAzucena",
-        "idCategoria": 1,
+        "idCategoria": "VestidosEstandar",
         "nombre":"Vestido Azucena",
         "modelo":"estandar",
         "categoria":"vestido",
         "precio":19.99,
         "stock":5,
-        "img":"../img/vestido azucena/VAE1.jpg"
+        "img":"../img/vestido azuceRnaR/VAE1.jpg"
     },
     {
         "id":"VestidoAzucenaCurvi",
-        "idCategoria": 2,
+        "idCategoria": "VestidosCurvi",
         "nombre":"Vestido Azucena Curvi",
         "modelo":"curvi",
         "categoria":"vestido",
         "precio":29.99,
         "stock":5,
-        "img":"../img/vestido azucena/VAC1.jpg"
+        "img":"../img/vestido azucernaR/VAC2.jpg"
     },
     {
         "id": "VestidoSofia",
-        "idCategoria": 1,
+        "idCategoria": "VestidosEstandar",
         "nombre":"Vestido Sofia",
         "modelo":"estandar",
         "categoria":"vestido",
         "precio":18.99,
         "stock":5,
-        "img":"../img/vestido sofia/IMG_2316.JPEG"
+        "img":"../img/vestido sofiaR/VSE5.jpeg"
     },
     {
         "id": "VestidoSofiaCurvi",
-        "idCategoria": 2,
+        "idCategoria": "VestidosCurvi",
         "nombre":"Vestido Sofia",
         "modelo":"curvi",
         "categoria":"vestido",
         "precio":27.99,
         "stock":5,
-        "img":"../img/vestido sofia/IMG_2309.JPEG"
+        "img":"../img/vestido sofiaR/VSC2.jpeg"
     },
     {
         "id": "VestidoFénix",
         "idCategoria": 1,
-        "nombre":"Vestido Fénix",
+        "nombre":"VestidosEstandar",
         "modelo":"estandar",
         "categoria":"vestido",
         "precio":15.99,
         "stock":5,
-        "img":"../img/vestido fenix/mi proyecto.jpg"
+        "img":"../img/vestido fenixR/VF1.jpeg"
     },
     {
         "id": "FaldaSirena",
-        "idCategoria": 3,
+        "idCategoria": "faldas",
         "nombre":"Falda Sirena",
         "modelo":"estandar",
         "categoria":"falda",
         "precio":10.99,
         "stock":5,
-        "img":"../img/falda sirena/FSM1zoom.JPEG"
+        "img":"../img/falda sirenaR/FS1.jpg"
     }
 ]

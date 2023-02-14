@@ -1,0 +1,15 @@
+.medida{
+    text-align: center;
+    height: 100px !important;
+}
+.dropdown-menu.show{
+    min-width: 500px;
+    height: 200px;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    flex-wrap: wrap !important;
+    }
+    .ms-5{
+        margin-left: 8rem !important;
+    }
