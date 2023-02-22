@@ -7,9 +7,9 @@ export const Item = ({item}) => {
         <Link className='' to={`/item/${item.id}`}>
           <img src={`/img/${item.img}`}className="card-img-top hover-zoom2" alt={`imagen de ${item.nombre}`} />
         <div className="card-body">
-          <h5 className="card-title">{item.nombre} {item.modelo}</h5>
-          <p className="card-text">{item.marca}</p>
-          <p className="card-text">{item.precio}$</p>
+          <h5 className="card-title text-center">{item.nombre} {item.modelo}</h5>
+          <p className="card-text text-center">{item.marca}</p>
+          <p className="card-text text-center">{item.precio}$</p>
         </div></Link>
       </div>
     );

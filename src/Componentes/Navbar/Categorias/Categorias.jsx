@@ -20,7 +20,7 @@ export const Categorias = () => {
               <li><a className="dropdown-item mb-3 mt-3" href="#">Action</a></li>
               <li><a className="dropdown-item mb-3" href="#">Another action</a></li>
             </li>
-            <Link  to={'/'}><a className="  display-6 ms-5 text-decoration-none" href="#">LARA SHOP</a></Link>
+            <Link className="  display-6 ms-5 text-decoration-none" to={'/'}>LARA SHOP</Link>
         </ul>
       </li>
     );
