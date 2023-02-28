@@ -1,6 +1,9 @@
 import React from 'react';
 import { useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
+import {  toast } from 'react-toastify';
 export const Checkout = () => {
+    const Navigate = useNavigate()
     const datosForm = useRef()
     const consultarForm = (e)=>{
         e.preventDefault()
@@ -9,6 +12,18 @@ export const Checkout = () => {
         console.log(data);
         const cliente =Object.fromEntries(data)
         console.log(cliente);
+        e.target.reset()
+        toast.success('Muchas gracias por comprar en LaraShop!', {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+            });
+        Navigate('/')
     }
     return (
         <div className='container contForm'>

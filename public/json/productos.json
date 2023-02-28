@@ -7,7 +7,7 @@
         "categoria":"vestido",
         "precio":19.99,
         "stock":5,
-        "img":"../img/vestido azuceRnaR/VAE1.jpg"
+        "img":"https://firebasestorage.googleapis.com/v0/b/larashop-3c266.appspot.com/o/vestido%20azucena%2FVAE1.jpg?alt=media&token=c2bcebeb-71ca-4c19-91bd-d933f3d8eb78"
     },
     {
         "id":"VestidoAzucenaCurvi",
@@ -17,7 +17,7 @@
         "categoria":"vestido",
         "precio":29.99,
         "stock":5,
-        "img":"../img/vestido azucernaR/VAC2.jpg"
+        "img":"https://firebasestorage.googleapis.com/v0/b/larashop-3c266.appspot.com/o/vestido%20azucena%2FVAC2.jpg?alt=media&token=a2014d3a-f8c5-4ae1-b5a0-0c3fe07a3e38"
     },
     {
         "id": "VestidoSofia",
@@ -27,7 +27,7 @@
         "categoria":"vestido",
         "precio":18.99,
         "stock":5,
-        "img":"../img/vestido sofiaR/VSE5.jpeg"
+        "img":"https://firebasestorage.googleapis.com/v0/b/larashop-3c266.appspot.com/o/vestido%20sofia%2FVSE5.jpeg?alt=media&token=7f16bbdc-76b5-4936-b2ee-c26c7dfb4707"
     },
     {
         "id": "VestidoSofiaCurvi",
@@ -37,7 +37,7 @@
         "categoria":"vestido",
         "precio":27.99,
         "stock":5,
-        "img":"../img/vestido sofiaR/VSC2.jpeg"
+        "img":"https://firebasestorage.googleapis.com/v0/b/larashop-3c266.appspot.com/o/vestido%20sofia%2FVSC2.jpeg?alt=media&token=e0cce905-0011-47db-a3b5-b2973812001a"
     },
     {
         "id": "VestidoFénix",
@@ -47,7 +47,7 @@
         "categoria":"vestido",
         "precio":15.99,
         "stock":5,
-        "img":"../img/vestido fenixR/VF1.jpeg"
+        "img":"https://firebasestorage.googleapis.com/v0/b/larashop-3c266.appspot.com/o/vestido%20fenix%2FVF1.jpeg?alt=media&token=141044e0-133b-456a-9c41-46ba4e6a8b5c"
     },
     {
         "id": "FaldaSirenaM1",
@@ -57,7 +57,7 @@
         "categoria":"falda",
         "precio":10.99,
         "stock":5,
-        "img":"../img/falda sirenaR/FS1.jpg"
+        "img":"https://firebasestorage.googleapis.com/v0/b/larashop-3c266.appspot.com/o/falda%20sirena%2FFS1.jpg?alt=media&token=0e09a521-5e0f-49b2-b409-306248b96d22"
     },
     {
         "id": "FaldaSirenaM2",
@@ -67,7 +67,7 @@
         "categoria":"falda",
         "precio":10.99,
         "stock":5,
-        "img":"../img/falda sirenaR/FS2.jpg"
+        "img":"https://firebasestorage.googleapis.com/v0/b/larashop-3c266.appspot.com/o/falda%20sirena%2FFS2.jpg?alt=media&token=663bc798-e356-43d6-b6e1-d8b74735d0b2"
     },
     {
         "id": "FaldaSirenaM3",
@@ -77,6 +77,6 @@
         "categoria":"falda",
         "precio":10.99,
         "stock":5,
-        "img":"../img/falda sirenaR/FS3.jpg"
+        "img":"https://firebasestorage.googleapis.com/v0/b/larashop-3c266.appspot.com/o/falda%20sirena%2FFS3.jpg?alt=media&token=b619213d-2ad8-4be3-b18e-5a249a67a79c"
     }
 ]

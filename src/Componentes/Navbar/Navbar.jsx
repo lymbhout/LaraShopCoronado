@@ -4,6 +4,7 @@ import { Categorias } from './Categorias/Categorias.jsx';
 import {CartWidget} from '../Cartwidget/CartWidget.jsx';
 import { Search } from './Search/Search.jsx';
 import { Secciones } from './Secciones/Secciones.jsx';
+import { BotonDarkMode } from '../BotonDarkMode/BotonDarkMode.jsx';
 const Navbar = () => {
     return (
 <nav className="navbar navbar-expand-lg bg-light">
@@ -18,6 +19,7 @@ const Navbar = () => {
         <Categorias />
       </ul>
       <Search />
+      <BotonDarkMode/>
       <CartWidget
       contadorCarrito ={10}/>
     </div>
