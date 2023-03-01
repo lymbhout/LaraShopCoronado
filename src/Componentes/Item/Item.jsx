@@ -4,6 +4,7 @@ import '../../CSS/Item.css'
 import { useDarkModeContext } from '../../Context/DarkModeContext';
 export const Item = ({item}) => {
   const {darkMode} = useDarkModeContext()
+  console.log(darkMode);
     return (
       <div className="card m-5  hover-zoom border-0 rounded-0" style={{width: '18rem'}}>
         <Link className='' to={`/item/${item.id}`}>

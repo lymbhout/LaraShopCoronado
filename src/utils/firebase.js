@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import {getFirestore,collection,addDoc,doc,getDocs,getDoc} from 'firebase/firestore'
+import {getFirestore,collection,addDoc,doc,getDocs,getDoc,updateDoc,deleteDoc} from 'firebase/firestore'
 const firebaseConfig = {
     apiKey: "AIzaSyA0-iR8X1VaxWmZCEz08TSbvsljM76I77U",
     authDomain: "larashop-3c266.firebaseapp.com",
@@ -27,7 +27,7 @@ export const  cargarBDD = async ()=>{
         })
     })
 }
-
+// CRUD 
 export const getProductos = async ()=>{
     const productos = await getDocs(collection(db,"productos"))
     const item = productos.docs.map(prod =>{
@@ -40,4 +40,32 @@ export const getProducto = async (id) =>{
     const producto = await getDoc(doc(db,"productos",id))
     const item = {...producto.data(),id:producto.id}
     return item
+}
+
+export const updateProducto = async (id,info)=>{
+    await updateDoc(doc(db,"productos",id),info)
+}
+
+
+export const delateProducto = async (id)=>{
+    await deleteDoc(doc(db,"productos",id))
+
+}
+
+// create and read orden de compra 
+
+export const createOrdenCompra = async (cliente,productos,precioTotal,fecha)=>{
+    const ordenCompra =await addDoc(collection(db,"ordenesCompra"),{
+        datosCliente: cliente,
+        productos: productos,
+        precioTotal: precioTotal,
+        fecha:fecha
+    })
+    return ordenCompra
+}
+
+export const getOrdenCompra = async(id)=>{
+    const oC= await getDoc(doc(db,"ordenesCompra,id"))
+    const ordenesCompra = {...oC.data(),id:oC.id}
+    return ordenesCompra
 }

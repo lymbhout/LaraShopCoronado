@@ -1,0 +1,13 @@
+.darkMode {
+    background-color: black;
+    color: gainsboro;
+}
+.cardBodyDark{
+    background-color: hsl(0,0,33%);
+    margin-top: 3px;
+    text-align: center;
+}
+.itemDeailBodyDark{
+    background-color: hsl(0,0,33%);
+    color: white;
+}

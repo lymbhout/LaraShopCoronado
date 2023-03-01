@@ -17,10 +17,9 @@ import { Checkout } from './Checkout/Checkout';
 import { Cart } from './Cart/Cart';
 // toastify
 import { ToastContainer} from 'react-toastify';
-
 function App() {
   // cargarBDD()
-  getProductos()
+  // getProductos()
   return (
     <div className="App">
       <BrowserRouter>
