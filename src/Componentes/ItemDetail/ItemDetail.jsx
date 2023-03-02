@@ -1,10 +1,11 @@
 import React from 'react';
 import { ItemCount } from '../ItemCount/ItemCount';
 import { Link } from 'react-router-dom';
+import { useCarritoContext } from '../../Context/CarritoContex';
 export const ItemDetail = ({ prods }) => {
-
+  const {addItem} = useCarritoContext()
   const onAdd = (cantidad)=>{
-  console.log(cantidad);
+  addItem(prods,cantidad)
   }
 
     return (

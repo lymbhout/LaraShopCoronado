@@ -1,6 +1,7 @@
 import React from 'react';
-
+import { useCarritoContext } from '../../Context/CarritoContex';
 export const ItemCart = ({item}) => {
+    const {removeItem} =useCarritoContext()
     return (
 
     <div className="card mb-3 cardCart">
@@ -14,7 +15,7 @@ export const ItemCart = ({item}) => {
                     <p className="card-text"> Cantidad: {item.cant}</p>
                     <p className="card-text"> Precio Unitario: {item.precio}</p>
                     <p className="card-text"> Subtotal: {item.cant * item.precio}</p>
-                    <button className="btn btn-danger" onClick={() => console.log("Producto eliminado")}>Eliminar del carrito</button>
+                    <button className="btn btn-danger" onClick={() => removeItem(item.id)}>Eliminar del carrito</button>
                 </div>
             </div>
         </div>
