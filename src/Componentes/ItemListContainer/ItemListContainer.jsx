@@ -10,13 +10,13 @@ export const ItemListContainer = () => {
         if(idCategoria){
             getProductos().then(prod =>{
                 const produc = prod.filter(productos => productos.idCategoria === idCategoria)
-                const item = ItemList({produc})
+                const item = <ItemList produc={produc} plantilla='item'/>
                 setproductos(item)
             })
             
         }else{
             getProductos().then(produc =>{
-                const item = ItemList({produc})
+                const item =<ItemList produc={produc} plantilla='item'/>
                 setproductos(item)
             })
         }

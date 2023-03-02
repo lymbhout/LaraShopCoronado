@@ -11,3 +11,15 @@
     background-color: hsl(0,0,33%);
     color: white;
 }
+
+.cartContainer{
+    margin-top: 3%;
+    margin-left: 26.5%;
+}
+.cardCart{
+    max-width: 640px;
+}
+.divButtons button{
+    margin:4px;
+
+}
