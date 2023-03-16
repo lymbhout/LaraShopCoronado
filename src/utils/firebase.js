@@ -1,7 +1,7 @@
 import { initializeApp } from "firebase/app";
 import {getFirestore,collection,addDoc,doc,getDocs,getDoc,updateDoc,deleteDoc} from 'firebase/firestore'
 const firebaseConfig = {
-    apiKey: "AIzaSyA0-iR8X1VaxWmZCEz08TSbvsljM76I77U",
+    apiKey: process.env.API_KEY_LARASHOP,
     authDomain: "larashop-3c266.firebaseapp.com",
     projectId: "larashop-3c266",
     storageBucket: "larashop-3c266.appspot.com",

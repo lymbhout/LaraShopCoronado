@@ -2,7 +2,6 @@
 import './App.css';
 // react router
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
-
 // css tosttify
 import 'react-toastify/dist/ReactToastify.css';
 // context

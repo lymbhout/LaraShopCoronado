@@ -20,7 +20,7 @@ export const Categorias = React.memo(() => {
               <li><a className="dropdown-item mb-3 mt-3" href="#">Action</a></li>
               <li><a className="dropdown-item mb-3" href="#">Another action</a></li>
             </li>
-            <Link className="  display-6 ms-5 text-decoration-none" to={'/'}>LARA SHOP</Link>
+            <Link className="  display-6 ms-5 text-decoration-none" to={'/home'}>LARA SHOP</Link>
         </ul>
       </li>
     );
