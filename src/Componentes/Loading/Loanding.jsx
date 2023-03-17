@@ -1,12 +1,35 @@
 import React from 'react';
-import '../../CSS/Loanding.css'
-import { documentoDeCambioLoad } from '../../utils/loanding';
-export const Loanding = () => {
-    documentoDeCambioLoad()
+// spinners
+import BarLoader from "react-spinners/BarLoader";
+// estados
+import { useState,useEffect } from 'react';
+import '../App.css'
+export const Loanding = ({productosImg}) => {
+    const [loading, setLoading] = useState(false)
+    useEffect(()=>{
+      setLoading(true)
+      setTimeout(()=>{
+        setLoading(false)
+  
+      },5000)
+    },[])
     return (
-        <>
-            <img src="./video/LaraShop.gif" alt="" className='loading loading--show' />
-        </>
+        <div>
+        {
+        loading
+        ?
+        <BarLoader className='centradoPerfecto mx-auto'
+        color={'#000000'}
+        loading={loading}
+        size={150}
+        width={300}
+        aria-label="Loading Spinner"
+        data-testid="loader"
+      />
+      :
+      productosImg
+        }
+        </div>
     );
 }
 

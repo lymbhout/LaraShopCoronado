@@ -1,11 +1,14 @@
 import React from 'react';
 import { useCarritoContext } from '../../Context/CarritoContex';
 import '../../CSS/ItemCart.css'
+import { Loanding } from '../Loading/Loanding';
 export const ItemCart = ({item}) => {
     const {removeItem} =useCarritoContext()
     return (
 
     <div className="card mb-3 ">
+        <Loanding productosImg={
+
         <div className="row g-0 d-flex flex-row justify-content-between ">
             <div className="imgCart ">
                 <img src={item.img} alt={`Imagen de ${item.nombre}`} className="img-fluid rounded-start "/>
@@ -20,6 +23,8 @@ export const ItemCart = ({item}) => {
                 </div>
             </div>
         </div>
+
+        }></Loanding>
     </div>
     );
 }

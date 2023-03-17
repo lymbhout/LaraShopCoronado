@@ -24,7 +24,7 @@ export const ItemListContainer = () => {
     },[idCategoria])
     return (
         <div className='row '>
-            {productos}
+                {productos}
         </div>
     );
 }

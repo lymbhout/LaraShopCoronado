@@ -22,6 +22,7 @@ localhost: 3000
 1. [React] (https://reactjs.org/) - Frontend Framework
 2. [Toastify] (https://fkhadra.github.io/react-toastify/introduction/) - Notificaciones
 3. [Firebase] (https://firebase.google.com/?hl=es-419) - Base de datos
+4. [react-spinners] (https://www.davidhu.io/react-spinners/) logos de carga
 ```
 
 ```
@@ -33,4 +34,7 @@ _Lara shop es una empresa que se dedica a la realizacion y venta de ropa femenin
 ### Ideas e Inspiracion
 _La web de LaraShop esta inspirada en la web de Zara y aun que aun esta en desarrollo, la idea es resaltar los producto por medio de fotos panoramicas._
 ```
+```
+## link Video 
+
 _ _
