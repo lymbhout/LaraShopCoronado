@@ -26,3 +26,32 @@
 .centradoPerfecto{
 margin-top: 250px;
 }
+
+.body::-webkit-scrollbar {
+    width: 22px;
+}
+ /* Estilos barra (thumb) de scroll */
+.App::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+  }
+  
+  .App::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+  }
+  
+  .App::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+   /* Estilos track de scroll */
+  .App::-webkit-scrollbar-track {
+    background: #e1e1e1;
+    border-radius: 4px;
+  }
+  
+  .App::-webkit-scrollbar-track:hover, 
+  .App::-webkit-scrollbar-track:active {
+    background: #d4d4d4;
+  }

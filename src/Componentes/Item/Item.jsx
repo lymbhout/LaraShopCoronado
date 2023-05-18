@@ -4,7 +4,7 @@ import '../../CSS/Item.css'
 import { Loanding } from '../Loading/Loanding.jsx';
 export const Item = ({item}) => {
     return (
-      <div className="card m-5  hover-zoom border-0 rounded-0" style={{width: '18rem'}}>
+      <div className="card m-5  hover-zoom border-0 rounded-0 " style={{width: '18rem'}}>
         <Loanding productosImg={
 
         <Link className='' to={`/item/${item.id}`}>

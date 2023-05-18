@@ -8,8 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { CarritoProvider } from '../Context/CarritoContex';
 // firebase
 import { getProductos } from '../utils/firebase';
-// spinners
-import BarLoader from "react-spinners/BarLoader";
+
 // componentes
 import Navbar from './Navbar/Navbar';
 import {ItemListContainer} from './ItemListContainer/ItemListContainer';
@@ -20,16 +19,7 @@ import { Cart } from './Cart/Cart';
 // toastify
 import { ToastContainer} from 'react-toastify';
 // estados
-import { useState,useEffect } from 'react';
 function App() {
-  const [loading, setLoading] = useState(false)
-  useEffect(()=>{
-    setLoading(true)
-    setTimeout(()=>{
-      setLoading(false)
-
-    },2000)
-  },[])
   // cargarBDD()
   // getProductos()
   return (
@@ -49,8 +39,6 @@ function App() {
           </CarritoProvider>
           <ToastContainer/>
       </BrowserRouter>
-      
-
     </div>
   );
 }

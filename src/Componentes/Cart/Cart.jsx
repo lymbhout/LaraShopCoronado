@@ -10,7 +10,7 @@ export const Cart = () => {
             {
                 carrito.length === 0
                 ? //Si no existen productos en el carrito
-                    <div className='d-flex flex-column justify-content-center align-items-center m300'>
+                    <div className='d-flex flex-column justify-content-center align-items-center m300 App'>
                         <h2>Carrito vacio <i className='bi bi-cart'></i></h2>
                         <Link className="nav-link" to={"/home"}><button className="btn btn-dark rounded-0">Continuar comprando</button></Link>
                     </div>
